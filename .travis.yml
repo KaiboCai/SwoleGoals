@@ -13,8 +13,10 @@ before_script:
   - npm install -g @angular/cli
   - npm install @angular-devkit/build-angular
 
+
 script:
 - cd ..
 - npm link
 - cd sg-angular
 - ng build
+- cd ..
