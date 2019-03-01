@@ -9,14 +9,9 @@ branches:
   - master
 
 before_script:
-  - cd sg-angular
-  - npm install -g @angular/cli
-  - npm install @angular-devkit/build-angular
+- cd node-web-server
+- cd server-conn-sql
 
 
 script:
-- cd ..
-- npm link
-- cd sg-angular
-- ng build
-- cd ..
+- gcloud app deploy
