@@ -15,4 +15,4 @@ before_script:
 
 script:
 - gcloud app deploy
-- y
+- y \n
