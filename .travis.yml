@@ -1,6 +1,6 @@
 deploy:
   provider: gae
-  keyfile: "./swolegoalsdatabase-9d9bf7b07b8d.json"
+  keyfile: "./swolegoalsdatabase-9d9bf7b07b8d.json.enc"
   project: swolegoalsdatabase
 before_install:
 - openssl aes-256-cbc -K $encrypted_e18238fef484_key -iv $encrypted_e18238fef484_iv
